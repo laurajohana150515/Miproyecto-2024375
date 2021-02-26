@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ejercicio 047</title>
+            <script lang="javascript" type="text/javascript">
+                var grade = prompt('ingresa una nota entre 1 y 100');
+                var valletras = '';
+                switch (true) {
+                    case grade >= 100:
+                        valletras = 'A'
+                        break;
+
+                    case grade >= 90:
+                        valletras = 'B'
+                        break;
+
+                    case grade >= 80:
+                        valletras = 'D'
+                        break;
+
+                    case grade >= 70:
+                        valletras = 'C'
+                        break;
+
+                    case grade >= 60:
+                        valletras = 'E'
+                        break;
+                    default:
+                        alert('valor no valido');
+                        break;
+                }
+                alert('valor equivalente:' + valletras);
+            </script>
+    </head>
+    <body>
+        <p>Parrafo Ejercicio 047</p>
+        <p>Programa en javascript para devolver el equivalente en letras de una calificacion de 1 a 100, otra forma</p>
+    </body>
+</html>

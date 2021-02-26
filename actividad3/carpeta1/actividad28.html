@@ -1,0 +1,41 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Structure</title>
+    </head> 
+    <body>
+        <form action="http://www.example.com/subscribe.php">
+            <fieldset>
+                <legend>Sus Datos:</legend>
+                <label>Nombre: <input type="text" name="nombre" /></label>
+                <br />
+                <label>Email: <input type="text" name="email" /></label>
+            </fieldset>
+            <fieldset>
+                <legend>Sus opinión:</legend>
+                    <p>
+                        ¿En qué dispositivo escuchas música?
+                        <select name="devices">
+                            <option value="Google">Google</option>
+                        </select>
+                    </p>
+                    
+                    <p>¿Volveria a visitarnos?
+                    <br />
+                        <input type="radio" name="genre" value="Si" /> Si
+                        <input type="radio" name="genre" value="No" /> No
+                        <input type="radio" name="genre" value="Quizas" /> Quizas
+                    </p>
+
+                    <p>Comentarios:</p>
+                    <textarea name="comments" cols="20" rows="4"></textarea>
+                
+                    <p>
+                        <input type="checkbox" name="service" value="inscribete"checked="checked"/> Inscríbete para actualizaciones por correo electrónico
+                        <br />
+                        <input type="submit" name="submit review" value="submit review" />
+                    </p>
+            </fieldset>
+        </form> 
+    </body> 
+</html>

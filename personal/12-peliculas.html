@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon">
+        <link rel="shortcut icon" href="./image/peliculas.jpeg" type="image/x-icon">
+        <title>peliculas</title>
+        <style typer="text/css">
+        body { 
+            font-family: Perpetua, Verdana, sans-serif;
+            color:#665544;
+            margin: auto;}
+        table { 
+            width: 95%;
+            empty-cells: show;
+            margin: auto;}
+ 
+        th, td {
+            padding: 7px 7px 7px 7px;
+            color: black;}
+        th{
+            height:8px;
+        }
+        th { text-transform: uppercase; 
+        letter-spacing: 0.1em;
+        font-size: 90%; 
+        border-bottom: 2px solid 0111111; 
+        border-top: 1px solid 5999; 
+        text-align: left;}
+        tr.even { 
+            background-color: #efefef;}
+        tr:hover { 
+            background-color: #c3e6e5;}
+        a#pointer { 
+            cursor: pointer;} 
+        input { 
+            border-bottom: 1px dotted #dcdcdc; 
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            padding: 5px;
+            width: 280px;
+            margin-bottom: 20px;}
+        input:focus { border: 1px dotted #dcdcdc; outline: none;}
+        input#submit { color: #ffffff;
+            background-color: #4f73b6; border: none;
+            border-radius: 5px;
+            width: 80px;}
+        input#submit:hover { 
+            color: 1665544; 
+            background-color: #efefef;} 
+        fieldset { width: 20%;
+            border: 1px solid #dcdcdc; 
+            border-radius: 10px;
+            padding: 20px;
+            text-align: right;}
+        legend { 
+            background-color: #efefef;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 10px 28px;
+            text-align: left;
+            text-transform: uppercase;}
+        #padre{
+            display: flex;
+            margin: auto;
+            justify-content:center;
+        }
+        .lista{	
+            width: 70%;}
+        ul {	
+            list-style: inside circle;}
+        li {	
+            margin: 10px 0px 0px 0px;}
+        h1,p{
+            text-align: center;
+         }
+        legend{
+            color:#3879f1;
+        }
+        img{
+            width: 1000px; 
+            height: 300px;
+            display:block;
+            margin:auto;
+         }
+
+    </style>
+    </head>
+    <body>
+        
+        <h1>Películas Marvel</h1>
+        <img src="./image/peliculas.jpeg" alt="marvel">
+        <table>
+        <tr>
+        <th>Universo</th> 
+        <th>cinematografico</th> 
+        <th>de marvel</th> 
+        <th>peliculas</th>
+        </tr>
+
+
+        <tr> 
+            <td>Avengers: Endgame</td> 
+            <td>Capitana Marvel</td> 
+            <td>Avengers: Infinity War</td> 
+            <td>Spider-Man: Far From Home</td>
+        </tr>
+
+
+        <tr class="even"> 
+            <td>Black Panther</td>
+            <td>Guardians of the Galaxy</td> 
+            <td>Avengers: Age of Ultron</td> 
+            <td>Guardianes de la Galaxia vol. 2</td>
+        </tr> 
+
+
+        <tr>
+            <td>Capitán América: El primer vengador</td>
+            <td>Hombre Hormiga</td>
+            <td>Capitán América y el Soldado del Invierno</td>
+            <td>Thor: The Dark World</td>
+        </tr>
+
+
+        <tr class="even">
+        <td>The Avengers</td> 
+        <td>Ant-Man and the Wasp</td> 
+        <td>Iron Man 3</td> 
+        <td>Thor: Ragnarok</td>
+        </tr> 
+
+
+        <tr>
+            <td>Spider-Man: Homecoming</td>
+            <td>Doctor Strange</td>
+            <td>Iron Man: el hombre de hierro</td>
+            <td>Iron Man 2</td>
+        </tr>
+
+
+        <tr class="even">
+            <td>Thor</td> 
+            <td>Capitán América: Civil War</td> 
+            <td>The Incredible Hulk</td> 
+            <td>No estrenadas aun <br />
+                'Viuda negra' y 'The Eternals'.</td>
+        </tr> 
+        </table> 
+        
+        <div id="padre">
+            <div class="lista">
+        <p><b>Orden cronológico películas</b></p>
+        <ul>
+            <li><a id="pointer">1943-1945: 'Capitán América: El primer vengador'</a></li>
+            <li><a id="pointer">1995 (con flashbacks a 1989): 'Capitana Marvel'</a></li>
+            <li><a id="pointer">2010: 'Iron Man'</a></li>
+            <li><a id="pointer">2011: 'Iron Man 2' </a></li>
+            <li><a id="pointer">2011: 'El increíble Hulk'</a></li>
+            <li><a id="pointer">2011: 'Thor'</a></li>
+            <li><a id="pointer">2012: 'Los vengadores'</a></li>
+            <li><a id="pointer">2012: 'Iron Man 3'</a></li>
+            <li><a id="pointer">2013: 'Thor: El mundo oscuro'</a></li>
+            <li><a id="pointer">2014: 'Capitán América: El soldado de invierno'</a></li>
+            <li><a id="pointer">2014: 'Guardianes de la Galaxia' (El prólogo transcurre en 1988)</a></li>
+            <li><a id="pointer">2014: 'Guardianes de la Galaxia Vol. 2'</a></li>
+            <li><a id="pointer">2015: 'Vengadores: La era de Ultrón'</a></li>
+            <li><a id="pointer">2015: 'Ant-Man' (el prólogo de la película transcurre en 1989)</a></li>
+            <li><a id="pointer">2016: 'Capitán América: Civil War' (con flashbacks a 1991)</a></li>
+            <li><a id="pointer">2016: 'Spider-Man: Homecoming'</a></li>
+            <li><a id="pointer">2016-2017: 'Doctor Strange'</a></li>
+            <li><a id="pointer">2017: 'Black Panther'</a></li>
+            <li><a id="pointer">2017: 'Thor: Ragnarok'</a></li>
+            <li><a id="pointer">2017: 'Ant-Man y la avispa'</a></li>
+            <li><a id="pointer">2017: 'Vengadores: Infinity War'</a></li>
+            <li><a id="pointer">2018 (con una parte importante de la película transcurriendo en 2023): 'Vengadores: Endgame'</a></li>
+            <li><a id="pointer">2024: 'Spider-Man: Lejos de casa'</a></li>
+        </ul>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+            <legend>Más información de las películas:</legend>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" /> 
+            <label for="email">Email: </label>
+            <input type="text" id="email" /> 
+            <input type="submit" value="Click" id="submit"/>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+    </body>
+</html>

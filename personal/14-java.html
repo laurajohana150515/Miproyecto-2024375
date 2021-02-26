@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./image/logojava.jpg" type="image/x-icon">
+		<title>javascript</title> 
+		<style type="text/css">
+		body{
+			text-align: center;
+			line-height: 1.4em;
+            background-color: #4BF79F;
+		}
+			h1{
+				text-transform: uppercase;
+				font-family: Georgia, Times, serif;
+				letter-spacing: 1.8em;
+				text-decoration: underline black;
+				font-size: 250%;
+				text-shadow: 2px 2px 3px #666666;
+				padding-bottom: 10px;
+			}
+		
+			.credits {
+				font-family: "Courier New", Courier, monospace;
+				text-decoration: overline red;
+			}
+			.intro {
+				text-align: left;
+				font-family: Palatino, "comic Sans ms";
+				font-size: 12px;
+				text-transform: capitalize;
+			}
+			#kiss {
+				vertical-align: text-top;} 
+			#corona {
+				vertical-align: middle;
+			}
+			#hearth {
+				vertical-align: text-bottom;} 
+			.credits {
+				font-family: "Courier mew", courier, monospace;}
+        </style>
+        <script lang="javascript" type="text/javascript">
+        var num1 = prompt ("Ingrese el primer numero:");
+        var num2 = prompt ("Ingrese el segundo numero:");
+        var num3 = prompt ("Ingrese el tercer numero:");
+        var res;
+                res = num1 - num2 - num3;
+                
+        alert ("la resta de tus tres números es:" + res + "\n" + "Espero ser de tu ayuda");
+        var today = new Date();
+        var hourNow = today.getHours();
+        var greeting;
+        if (hourNow > 18){
+            greeting = 'Hola Buenas Noches';
+        } else if (hourNow > 12){
+            greeting = 'Hola Buenas Tardes';
+        }else if (hourNow > 0){
+            greeting = 'Hola Buenas Dias';
+        }else {
+            greeting = 'Hola';
+        }
+
+        document.write('<h3>' + greeting + '</h3>');
+        </script>
+	</head>
+    <body>
+        <h1>Resta Basica de tres digitos</h1>
+        <p>Si Necesita verificar, nuevamente ejecute el programa.</p>
+        <img src="image/java1.jpg"width="300" height="250">
+        <script src="js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon">
+        <link rel="shortcut icon" href="./image/logo escritores.jpg" type="image/x-icon">
+        <style type="text/css">
+        body{
+            background-image:url(./image/fondo\ escritores.jpg) ;
+            background-size: 100% 100%;
+        }
+        </style>
+        <title>Encuesta Escritores</title>
+    </head> 
+    <body>
+        <form action="http://www.example.com/subscribe.php">
+            <fieldset>
+                <legend>Sus Datos:</legend>
+                <label>Nombre: <input type="text" name="nombre" /></label> 
+                
+                <br />
+                <br />
+                <fieldset>
+                <legend>Escritores:</legend>
+                    <p>
+                        ¿cual de los siguientes escritores prefiere leer?
+                        <select name="devices">
+                            <option value="nnn">---</option>
+                            <option value="Gabriel">Gabriel García Márquez</option>
+                            <option value="Edgar">Edgar Allan Poe</option>
+                            <option value="Marío">Marío Mendoza</option>
+                            <option value="Willian">Willian Shakespeare</option>
+                            <option value="Albert">Albert Camus</option>
+                        </select>
+                    </p>
+                    
+                    <p>¿lee más de uno de los anteriores escritores?
+                    <br />
+                        <input type="radio" name="genre" value="Si" /> Si
+                        <input type="radio" name="genre" value="No" /> No
+                    </p>
+
+                    <p>Lee otros escritores, cuentenos cuales:</p>
+                    <textarea name="comments" cols="20" rows="4">Aquí..</textarea>
+                
+                    <p>
+                        <input type="checkbox" name="service" value="inscribete"/> Inscríbete para recibir más encuestas de esté tipo.
+                        <br />
+                        <input type="submit" name="submit review" value="submit review" />
+                    </p>
+                </fieldset>
+            </fieldset>
+        </form> 
+    </body> 
+</html>
